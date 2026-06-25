@@ -1,0 +1,229 @@
+/* ============================================
+   BookNest - Simple Bookstore Website
+   Theme: Green (#88E788) & White
+   ============================================ */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* ---------- Header & Navigation ---------- */
+header {
+  background-color: #88E788;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #1b5e20;
+  font-size: 32px;
+}
+
+header p {
+  color: #2e7d32;
+  font-style: italic;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: 3px solid #88E788;
+  text-align: center;
+  padding: 12px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #88E788;
+  color: #ffffff;
+}
+
+/* ---------- Main content area ---------- */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2.page-title {
+  color: #2e7d32;
+  border-left: 6px solid #88E788;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+/* ---------- Hero section (Home) ---------- */
+.hero {
+  background-color: #88E788;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #2e7d32;
+  color: #ffffff;
+}
+
+/* ---------- Book cards (Sales) ---------- */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.book-card {
+  border: 2px solid #88E788;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 10px rgba(136, 231, 136, 0.6);
+}
+
+.book-card .cover {
+  background-color: #88E788;
+  height: 160px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.book-card h3 {
+  color: #2e7d32;
+  font-size: 18px;
+}
+
+.book-card .author {
+  color: #777777;
+  font-size: 14px;
+}
+
+.book-card .price {
+  color: #1b5e20;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+/* ---------- Cards for About / Contact ---------- */
+.info-box {
+  background-color: #f4fff4;
+  border: 1px solid #88E788;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* ---------- Forms (Contact & Checkout) ---------- */
+form {
+  background-color: #f4fff4;
+  border: 1px solid #88E788;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 600px;
+}
+
+form label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #88E788;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* ---------- Checkout table ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 22px;
+}
+
+table th,
+table td {
+  border: 1px solid #88E788;
+  padding: 13px;
+  text-align: left;
+}
+
+table th {
+  background-color: #88E788;
+  color: #ffffff;
+}
+
+.total-row td {
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #88E788;
+  color: #1b5e20;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 4px 0;
+}
