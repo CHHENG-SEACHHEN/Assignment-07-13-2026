@@ -169,14 +169,17 @@ h2.page-title {
   margin: 8px 0;
 }
 
-.container .view {
-  color: #1b5e20;
-  text-decoration: none;
-  cursor: pointer;
-  text-align: center;
+.view {
+  display: flex;
+  justify-content: center;
 }
 
-.view:hover {
+.decor {
+  text-decoration: none;
+  color: #1b5e20;
+}
+
+.decor:hover {
   text-decoration: underline;
 }
 
