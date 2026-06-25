@@ -17,6 +17,13 @@ body {
   line-height: 1.6;
 }
 
+body h1 {
+  text-align: center;
+  color: #1b5e20;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
 /* ---------- Header & Navigation ---------- */
 header {
   background-color: #88E788;
@@ -94,7 +101,7 @@ h2.page-title {
   padding: 12px 24px;
   border-radius: 8px;
   margin-top: 15px;
-  border: none;
+  border: 2px solid #2e7d32;
   cursor: pointer;
   font-size: 16px;
 }
@@ -111,45 +118,66 @@ h2.page-title {
   gap: 20px;
 }
 
-.book-card {
-  border: 2px solid #88E788;
+.container {
+  width: 80%;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 20px solid #88E788;
+  background-color: #88E788;
   border-radius: 10px;
-  padding: 15px;
-  text-align: center;
-  background-color: #ffffff;
+  margin-top: 30px;
+}
+
+.book-card {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #BCEBD7;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .book-card:hover {
-  box-shadow: 0 4px 10px rgba(136, 231, 136, 0.6);
+  box-shadow: 0px 0px 6px
 }
 
 .book-card .cover {
-  background-color: #88E788;
-  height: 160px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  font-size: 40px;
-  margin-bottom: 10px;
+  float: left;
+  margin-right: 15px;
+}
+
+.book-card img {
+  width: 220px;
 }
 
 .book-card h3 {
   color: #2e7d32;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .book-card .author {
   color: #777777;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .book-card .price {
   color: #1b5e20;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   margin: 8px 0;
+}
+
+.container .view {
+  color: #1b5e20;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.view:hover {
+  text-decoration: underline;
 }
 
 /* ---------- Cards for About / Contact ---------- */
@@ -226,38 +254,4 @@ footer {
 
 footer p {
   margin: 4px 0;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border: 20px solid #88E788;
-  background-color: #88E788;
-  border-radius: 10px;
-  margin-top: 30px;
-}
-
-hr {
-  width: 102%;
-  margin-left: -20px;
-  margin-right: -20px;
-  border: 15px solid #88E788;
-}
-
-body h1 {
-  text-align: center;
-  color: #1b5e20;
-  margin-bottom: 20px;
-  font-size: 24px;
-}
-
-.book-container {
-  width: 100%;
-  margin: auto;
-  padding: 20px;
-  border: 2px solid #BCEBD7;
-  background-color: white;
-  border-radius: 10px;
 }
