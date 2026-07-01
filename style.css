@@ -128,8 +128,17 @@ h2.page-title {
   margin-top: 20px;
   padding: 12px 24px;
   width: 400px;
-  border-radius: 20px;
+  border-radius: 24px;
   border: 2px solid #2e7d32;
+  transition: background-color 0.2s;
+}
+
+.search-bar:hover {
+  background-color: #dcf6dc;
+}
+
+.search-bar:focus-within {
+  background-color: #ffffff;
 }
 
 /* ---------- Book cards (Sales) ---------- */
