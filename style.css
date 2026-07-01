@@ -246,6 +246,17 @@ table th {
   color: #1b5e20;
 }
 
+.text-center {
+  border: 1px solid #88E788;
+  display: flex;
+  align-items: center;gi
+}
+
+td img {
+  width: 10%;
+  float: left;
+}
+
 /* ---------- Footer ---------- */
 footer {
   background-color: #88E788;
