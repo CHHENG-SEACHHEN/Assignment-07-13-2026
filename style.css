@@ -80,16 +80,28 @@ h2.page-title {
 /* ---------- Hero section (Home) ---------- */
 .hero {
   background-color: #88E788;
-  color: #ffffff;
+  color: #2e7d32;
   text-align: center;
   padding: 60px 20px;
   border-radius: 10px;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .hero h2 {
   font-size: 36px;
   margin-bottom: 10px;
+}
+
+.feature {
+  background-color: #f4fff4;
+  color: #2e7d32;
+  border: 1px solid #88E788;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .btn {
@@ -111,13 +123,16 @@ h2.page-title {
   color: #ffffff;
 }
 
-/* ---------- Book cards (Sales) ---------- */
-.book-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+.search-bar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid #2e7d32;
 }
 
+/* ---------- Book cards (Sales) ---------- */
 .container {
   width: 80%;
   margin: auto;
@@ -244,6 +259,17 @@ table th {
 .total-row td {
   font-weight: bold;
   color: #1b5e20;
+}
+
+.text-center {
+  border: 1px solid #88E788;
+  display: flex;
+  align-items: center;
+}
+
+td img {
+  width: 10%;
+  float: left;
 }
 
 /* ---------- Footer ---------- */
