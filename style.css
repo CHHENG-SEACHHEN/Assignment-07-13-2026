@@ -219,6 +219,10 @@ h2.page-title {
   margin-right: 10px;
 }
 
+.team {
+  padding-left: 24px;
+}
+
 /* ---------- Forms (Contact & Checkout) ---------- */
 form {
   background-color: #f4fff4;
