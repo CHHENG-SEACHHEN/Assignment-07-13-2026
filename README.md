@@ -1,4 +1,5 @@
-git # Assignment-07-13-2026 
+git # Assignment-07-13-2026
+
 First thing we did for this project
 - we need to agree on what kind of website we want, and theme. We all have to agree with each other (book website, and green & white theme)
 - everyone contribute in the website layout (only focus on header and footer), because all of our page need to have the same header and footer, giving many opinion and designs (we designed them in powerpoint first)
