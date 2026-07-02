@@ -9,10 +9,11 @@ After all the above are done, we divided with section into pages, 1 person 1 pag
 - when someone is finished with assigned task, we all checked the code and adjust some codes to meet the theme and what we expected to see in that page. (giving additional ideas and advices)
 
 Our history and steps on our project
-1. all pages' header, footer, and nav
-2. checkout page completed
-3. sales page completed
-4. home page completed
-5. contact page completed
-6. about page completed
-7. code clean ups, make html code look clean and neat, we checked on unnesscary css or repeated css (so we combined and use the same one)
+1. create a github file with all pages' .html
+2. all pages' header, footer, and nav
+3. checkout page completed
+4. sales page completed
+5. home page completed
+6. contact page completed
+7. about page completed
+8. code clean ups, make html code look clean and neat, we checked on unnesscary css or repeated css (so we combined and use the same one)
