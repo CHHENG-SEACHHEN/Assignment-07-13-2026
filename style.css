@@ -231,6 +231,15 @@ h2.page-title {
   margin-bottom: 20px;
 }
 
+ul li {
+  font-weight: bold;
+}
+
+li p {
+  display: inline-block;
+  width: 190px;
+}
+
 /* ---------- Forms (Contact & Checkout) ---------- */
 form {
   background-color: #f4fff4;
